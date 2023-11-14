@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #F6F8F9;
+}
+
+header,main {
+    background-color: white;
+}
+
+main{
+    width: 80%;
+    height: 85vh;
+    margin: 5vh auto;
+}
+
+.btn-container{
+    border-bottom: 1px solid black;
+}
+
+ul{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+li:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li:first-child:before{
+    content:"▾";
+}
