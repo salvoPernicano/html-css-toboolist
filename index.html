@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Toboolist</title>
 </head>
+
 <body>
     <header>
-        <h1><img src="./img/logo copia.png" alt="logo">Toboolist</h1>
+        <img src="./img/logo copia.png" alt="logo">
+        <h1>Toboolist</h1>
     </header>
     <main>
         <div class="btn-container">
             <button>Add Task</button>
             <button>Add section</button>
         </div>
-        <ul>
-            <li>New Task</li>
-            <li>Quarterly Newsletter <span>Editorial</span> </li>
-        </ul>
-        <ul>
-            <li>Today</li>
-            <li>Recruiting blog post <span>Editorial</span> </li>
-            <li>Mobile app launch <span>Q1 Goals</span> </li>
-            <li>Interview John H. <span>Recruiting</span> </li>
-            <li>Summit update to mobile storefronts <span>Mobile</span> </li>
-        </ul>
-        <ul>
-            <li>Upcoming</li>
-            <li>Schedule meeting with Alex</li>
-            <li>Homepage refresh <span>Website</span> </li>
-            <li>Onboard new Sales team members <span>Sales</span> </li>
-            <li>Revie editorial calendar <span>Editorial</span> </li>
-        </ul>
+        <section>
+            <ul>
+                <li>New Task</li>
+                <li>Quarterly Newsletter <span>Editorial</span> </li>
+            </ul>
+            <ul>
+                <li>Today</li>
+                <li>Recruiting blog post <span>Editorial</span> </li>
+                <li>Mobile app launch <span id="purple">Q1 Goals</span> </li>
+                <li>Interview John H. <span id="green">Recruiting</span> </li>
+                <li>Summit update to mobile storefronts <span id="orange">Mobile</span> </li>
+            </ul>
+            <ul>
+                <li>Upcoming</li>
+                <li>Schedule meeting with Alex</li>
+                <li>Homepage refresh <span id="pink">Website</span> </li>
+                <li>Onboard new Sales team members <span id="lime">Sales</span> </li>
+                <li>Revie editorial calendar <span>Editorial</span> </li>
+            </ul>
+        </section>
     </main>
 </body>
+
 </html>
