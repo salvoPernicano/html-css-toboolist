@@ -104,3 +104,17 @@ span {
 #lime {
     background-color: #b0c926;
 }
+
+.checklist {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #6CC4AF;
+    color: #6CC4AF;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+
+.checklist.negative {
+    border: 1px solid #EA4237;
+    color: #EA4237;
+}
